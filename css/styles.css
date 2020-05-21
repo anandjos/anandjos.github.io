@@ -6,61 +6,51 @@
     }
     body {
         background-color:#f4f4f4;
-        line-height: 2em;
+        line-height: 3em;
         margin: 0;
-     /* background-image: url("img_tree.png");
-        background-position: right top;
-        background-repeat: no-repeat; */
     } 
-    h1 {
-        font-size: 50px;
-        padding: 10px 20px  ;
-        text-align: left;
-        background-color:cadetblue ;
-    }
-    h2 {
-        font-size: 30px;
-        color: indigo;
-      /*  background-color: dodgerblue;*/
-    }
     p {
         font-family: Arial, Helvetica, sans-serif;
         color: black;
-        font-size: 30px;
+        font-size: 40px;
         padding: 20px 50px;
     }
     
-    .part2{
+    .part3{
       font-size: 30px;
       height: fit-content;
       background-color: black;
     }
+    .part1{
+      margin-top: 80px;
+    }
     .quote{
       font-size: 30px;
       font-style: italic;
-      color: indianred;
+      font-weight: bold;
+      color: darkred;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       padding: 
       height: 100px;
     }
-    .part3{
+    .part2{
+      margin-top: 80px;
+      margin-bottom: 80px;
       font-weight: lighter;
-      background-color: rgb(92, 78, 38);
-      
     }
     .quote{
       text-align: center;
-      height: 100px;
-      padding-top: 50px;
+      height: 200px;
+      padding-top: 100px;
     }
     .sidehead{
+      font-size: 40px;
       font-weight: bold;
-      color: indigo;
+      color:rgb(58, 58, 126);
     }
     .wrapper{
       font-size: 30px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      background-color:gray;
       display: grid;
     }
     .homeweb{
@@ -101,6 +91,7 @@
 
     }
     .checkbtn{
+      display: none;
       font-size: 40px;
       color: white;
       float: right;
@@ -151,6 +142,6 @@
       }
     }
    .footer{
-     color:#0082e6 ;
+     color: rgb(255, 250, 250) ;
      text-align: center;
    }
