@@ -15,6 +15,23 @@
         font-size: 40px;
         padding: 20px 50px;
     }
+    .contact-box{
+      display: flex;
+      justify-content: center ;
+      flex-direction: row;
+      margin-bottom: 100px;
+    }
+    .contact-box a{
+      padding-right: 10px;
+    }
+    .contact-box a:hover{
+      transform: scale(1.5);
+      background: none;
+    }
+    .contact-box i{
+      font-size: 40px;
+      color: teal;
+    }
     
     .part3{
       font-size: 30px;
